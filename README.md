@@ -12,7 +12,7 @@ It is a Python library that supports large, multi-dimensional arrays & matrices 
 To utilize NumPy in our code, we need to import it by adding the following line at the beginning of the script:
 >import numpy as np
 
-### NumPy Array Indexing
+### 1. NumPy Array Indexing
 1D Arrays<br/>
 It's the same as accessing any array element. We can access any array element through its index number. The indexes in Python start with 0.<br/>
 >arr = np.array([1,2,3,4])<br/>
