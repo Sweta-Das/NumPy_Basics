@@ -3,9 +3,11 @@ It is a Python library that supports large, multi-dimensional arrays & matrices 
 - Array manipulation<br/>
 - Linear Algebra<br/>
 - Fourier Transform<br/>
-- Random Number Generation, and many more.<br/>
+- Random Number Generation, and many more.<br/><br/>
+
 ![download](https://github.com/Sweta-Das/NumPy_Basics/assets/73231461/6b897bd5-438d-4603-a5d3-4200aec491f7)
-<br/>
+<br/><br/>
+
 ### Importing NumPy in Python
 To utilize NumPy in our code, we need to import it by adding the following line at the beginning of the script:
 >import numpy as np
