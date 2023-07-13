@@ -20,6 +20,7 @@ It's the same as accessing any array element. We can access any array element th
 2D Arrays<br/>
 To access 2D arrays, comma-separated integers representing the dimension & the index of the element are used. The dimension represents the rows & index represents the column.<br/>
 >arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])<br/>
+
 To access any element from say, 3rd element from 2nd row:<br/>
 >print(arr[1,2])
 >8<br/>
@@ -27,6 +28,7 @@ To access any element from say, 3rd element from 2nd row:<br/>
 3D Arrays<br/>
 To access 3D arrays, we can further extend the comma-separated integers.<br/>
 >arr = np.array([[[1,2,3], [4,5,6]], [[7,8,9], [10,11,12]]])<br/>
+
 To access 3rd element of the 2nd array of the 1st array:<br/>
 >print(arr[0,1,2])
 >6
