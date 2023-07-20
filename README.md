@@ -48,10 +48,10 @@ Slicing in Python refers to accessing elements from the array based on its index
 >arr[start:end]
 
 >arr[start: end :step]
-<br/>
 - If no "start", it's considered as 0.<br/>
 - If no "end", it's considered as the length of the array in that dimension.<br/>
-- If no "step", it's considered as 1.<br/><br/>
+- If no "step", it's considered as 1.<br/>
+<br/>
 Negative Slicing<br/>
 Using the minus operator to refer to an index from the end.<br/>
 
