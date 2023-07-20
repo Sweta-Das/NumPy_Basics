@@ -68,8 +68,7 @@ From the 2nd element, slicing elements from index 1 to index 4 (not included).<b
 
 O/p:<br/>
 
->[7 8 9]
-<br/>
+>[7 8 9]<br/>
 
 ### NumPy Data Types
 Common Python data types:<br/>
@@ -79,6 +78,7 @@ Common Python data types:<br/>
 - boolean => True/False<br/>
 - complex => 1.0+2.0j, 1.5+2.5j<br/>
 <br/>
+
 NumPy Data types and the characters used to represent them.<br/>
 - i => integer<br/>
 - b => boolean<br/>
@@ -92,9 +92,11 @@ NumPy Data types and the characters used to represent them.<br/>
 - U => unicode string<br/>
 - V => fixed chunk of memory of other type (void)<br/>
 <br/>
+
 Checking Data type of an Array.<br/>
-> arr.dtype<br/>
+>arr.dtype<br/>
 <br/>
+
 Creating Arrays with a defined Data type.<br/>
 >arr = np.array([1,2,3,4], dtype='S')<br/>
 <br/>
