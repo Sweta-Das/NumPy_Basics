@@ -51,14 +51,21 @@ Slicing in Python refers to accessing elements from the array based on its index
 <br/>
 - If no "start", it's considered as 0.<br/>
 - If no "end", it's considered as the length of the array in that dimension.<br/>
-- If no "step", it's considered as 1.<br/>
+- If no "step", it's considered as 1.<br/><br/>
 Negative Slicing<br/>
 Using the minus operator to refer to an index from the end.<br/>
+
 >arr[-3:-1]<br/>
+
 It'll access array elements from the 3rd last to the 2nd last.<br/>
+<br/>
 Slicing 2D Arrays<br/>
 From the 2nd element, slicing elements from index 1 to index 4 (not included).<br/>
+
 >arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])<br/>
+
 >arr[1, 1:4]<br/>
+
 O/p:<br/>
+
 >[7 8 9]
