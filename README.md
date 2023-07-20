@@ -47,7 +47,7 @@ Using negative indexing to access the array elements from the end.
 Slicing in Python refers to accessing elements from the array based on its index.<br/>
 >arr[start:end]
 
->arr[start:end:step]
+>arr[start: end :step]
 <br/>
 - If no "start", it's considered as 0.<br/>
 - If no "end", it's considered as the length of the array in that dimension.<br/>
