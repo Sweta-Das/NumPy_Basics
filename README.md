@@ -63,7 +63,6 @@ Slicing 2D Arrays<br/>
 From the 2nd element, slicing elements from index 1 to index 4 (not included).<br/>
 
 >arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])<br/>
-
 >arr[1, 1:4]<br/>
 
 O/p:<br/>
@@ -107,6 +106,7 @@ Converting data type of an existing array.<br/>
 >print(newarr)<br/>
 >print(newarr.dtype)<br/>
 <br/>
+
 Output:<br/>
 >[1 2 3]<br/>
 >int32
