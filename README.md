@@ -69,3 +69,43 @@ From the 2nd element, slicing elements from index 1 to index 4 (not included).<b
 O/p:<br/>
 
 >[7 8 9]
+<br/>
+### NumPy Data Types
+Common Python data types:<br/>
+- strings => "ABCD"<br/>
+- integer => 1,2,3,-1,-2,-3<br/>
+- float => 1.2,42.42<br/>
+- boolean => True/False<br/>
+- complex => 1.0+2.0j, 1.5+2.5j<br/>
+<br/>
+NumPy Data types and the characters used to represent them.<br/>
+- i => integer<br/>
+- b => boolean<br/>
+- u => unsigned integer<br/>
+- f => float<br/>
+- c => complex float<br/>
+- m => time delta<br/>
+- M => datetime<br/>
+- O => object<br/>
+- S => string<br/>
+- U => unicode string<br/>
+- V => fixed chunk of memory of other type (void)<br/>
+<br/>
+Checking Data type of an Array.<br/>
+> arr.dtype<br/>
+<br/>
+Creating Arrays with a defined Data type.<br/>
+>arr = np.array([1,2,3,4], dtype='S')<br/>
+<br/>
+Converting data type of an existing array.<br/>
+>arr = np.array([1.1, 2.1, 3.1])<br/>
+>newarr = arr.astype('i')<br/>
+>print(newarr)<br/>
+>print(newarr.dtype)<br/>
+<br/>
+Output:<br/>
+>[1 2 3]<br/>
+>int32
+<br/>
+
+
