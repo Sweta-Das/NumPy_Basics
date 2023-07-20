@@ -70,6 +70,7 @@ O/p:<br/>
 
 >[7 8 9]
 <br/>
+
 ### NumPy Data Types
 Common Python data types:<br/>
 - strings => "ABCD"<br/>
