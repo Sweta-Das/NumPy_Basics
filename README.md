@@ -100,6 +100,7 @@ Checking Data type of an Array.<br/>
 Creating Arrays with a defined Data type.<br/>
 >arr = np.array([1,2,3,4], dtype='S')<br/>
 <br/>
+
 Converting data type of an existing array.<br/>
 >arr = np.array([1.1, 2.1, 3.1])<br/>
 >newarr = arr.astype('i')<br/>
