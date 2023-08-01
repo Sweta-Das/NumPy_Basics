@@ -3,10 +3,10 @@ Copy means a new array in NumPy. Any changes made to the copy don't affect the o
 View is just a view of the original array. Any changes made to the view will affect the original array, and vice-versa. View doesn't own the data.<br/>
 <br/>
 To make a copy of an array:<br/>
-> arr.copy() <br/>
+>arr.copy()
 <br/>
-To make a view of an array:<br/>
-> arr.view() <br/>
+To make a view of an array: <br/>
+>arr.view()
 <br/>
 To check if an array owns its data:<br/>
 > arr = np.array([1,2,3,4,5]) <br/>
@@ -16,6 +16,6 @@ To check if an array owns its data:<br/>
 > print(y.base) <br/>
 <br/>
 Output of copy:<br/>
-> None
+> None<br/>
 Output of view:<br/>
 [1 2 3 4 5]<br/>
