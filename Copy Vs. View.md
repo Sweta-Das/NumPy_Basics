@@ -9,11 +9,11 @@ To make a view of an array:<br/>
 > arr.view() <br/>
 <br/>
 To check if an array owns its data:<br/>
-> arr = np.array([1,2,3,4,5]) 
-> x = arr.copy()
-> y = arr.view()
-> print(x.base)
-> print(y.base)
+> arr = np.array([1,2,3,4,5]) <br/>
+> x = arr.copy() <br/>
+> y = arr.view() <br/>
+> print(x.base) <br/>
+> print(y.base) <br/>
 <br/>
 Output of copy:<br/>
 > None
