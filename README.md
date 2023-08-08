@@ -107,11 +107,9 @@ Converting data type of an existing array.<br/>
 >print(newarr.dtype)<br/>
 <br/>
 
-Ref : https://www.w3schools.com/python/numpy/default.asp
-
 Output:<br/>
 >[1 2 3]<br/>
 >int32
 <br/>
 
-
+Ref : https://www.w3schools.com/python/numpy/default.asp
